@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>
+<body>
+	<button id="button">Click Me</button>
+
+	<script>
+		var button = document.getElementById('button');
+
+		button.addEventListener('click', first);
+		button.addEventListener('click', second);
+
+		function first(){
+			alert('Hello');
+		}
+
+		function second(){
+			alert('again');
+		}
+	</script>
+</body>
+</html>
