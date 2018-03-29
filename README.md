@@ -6,7 +6,7 @@ Basic webpack configuration for running ES6
 
 ## Install
 
-Clone the repository and install dependencies using [npm]
+Clone the repo and install dependencies using [npm]
 
 ```bash
 $ npm install
